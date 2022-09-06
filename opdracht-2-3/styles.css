@@ -20,13 +20,15 @@ h1,h3{
     justify-content: center;
 }
 
-
-
 article{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     background-color: #c16e70;
-    align-content: stretch;
+}
+
+.par-one, .par-two, .par-three{
+    border: 5px dotted purple; /* as help only, remove later
+
 }
 
