@@ -3,3 +3,10 @@
     flex-direction: column;
     justify-content: flex-end;
 }
+
+.two{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
