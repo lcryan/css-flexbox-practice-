@@ -1,17 +1,17 @@
-.one{
+.one {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
 }
 
-.two{
+.two {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
 
-.three{
+.three {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -28,26 +28,38 @@ ul {
     flex-basis: 300px;
 }
 
-form{
+form {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-.four{
+.four {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-.username{
+
+.username {
     display: flex;
     flex-direction: column;
     align-self: center;
 }
 
-.password{
+.password {
     display: flex;
     flex-direction: column;
     align-self: center;
 }
 
+.five {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+article{
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 360px;
+}
