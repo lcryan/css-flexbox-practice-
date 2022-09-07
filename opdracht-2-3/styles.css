@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -47,17 +47,18 @@ article {
     flex-grow: 0;
 }
 
-.topnav{
+.topnav {
     background-color: #030027;
-    color: whitesmoke;
+    color: white;
     font-family: Tahoma, sans-serif;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 40px 40px 40px 40px;
-    flex-shrink: 1;
+    flex-shrink: 0;
     flex-grow: 0;
+    font-weight: bolder;
 }
 
 ul {
@@ -68,4 +69,6 @@ ul {
     flex-shrink: 0;
     flex-grow: 0;
     flex-basis: 500px;
+    font-weight: lighter;
 }
+
