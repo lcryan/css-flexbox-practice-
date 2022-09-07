@@ -42,3 +42,17 @@ article {
     /* spaeter fuer auftrag 2.2 (siehe abbildung) padding: 20px 20px 20px 20px */
 }
 
+.topnav{
+    background-color: #030027;
+    color: whitesmoke;
+    font-family: Tahoma, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    color: whitesmoke;
+    list-style-type: none;
+}
